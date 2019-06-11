@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E8D066F0BFD8B1CE4749D4643FECA6 /* Dropper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971D36024B1AC9CBF74A9CCF246CBC7D /* Dropper.swift */; };
+		2DE4879B6BE5EDCD4AA25A00781EA4DB /* DropperDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F57FE5A94D37F217EEA12DA4A6C51E3 /* DropperDelegate.swift */; };
+		4DCBEEACB37AC7C5DA53541BD3F2D108 /* DropperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E680E0F0A92FB7CC001EDE9647DE1D /* DropperCell.swift */; };
+		6A0E7645B0F2B1A70D56354E179BAB62 /* Pods-YaTranslate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2ECF84490457C370CC9719EF486D5F1 /* Pods-YaTranslate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90071DC1BFE85520889B72EC96B7CAAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9F638261674C83DE7D842332BAC73C6C /* Dropper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 624B39DD25844BEB8C9611764A9F5167 /* Dropper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCC27408CC7A646F96F20EAE65FA692F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BF03CF5CFB6640F9124FC088C4CBFA7E /* Pods-YaTranslate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E72C27BC87647DBFE838A02B9153DCBF /* Pods-YaTranslate-dummy.m */; };
+		DD2663BD2B51FF0E006D2F5DCF18472C /* DropperExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D00DD7571EEC25A83B8AEC681CE6AB3 /* DropperExtensions.swift */; };
+		F0D16E18D971D4080DA65601A9A329F2 /* Dropper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A965F1F1CC12F1AD528277E192A34F6 /* Dropper-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46D3DEB0D540029E091F28E525A803AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 369974F7679ED5F4856B88F12F76F820;
+			remoteInfo = Dropper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19E680E0F0A92FB7CC001EDE9647DE1D /* DropperCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropperCell.swift; path = Pod/Classes/DropperCell.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3A965F1F1CC12F1AD528277E192A34F6 /* Dropper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Dropper-dummy.m"; sourceTree = "<group>"; };
+		3D00DD7571EEC25A83B8AEC681CE6AB3 /* DropperExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropperExtensions.swift; path = Pod/Classes/DropperExtensions.swift; sourceTree = "<group>"; };
+		43A9021732DF4E687F1BA797E0887D8F /* Dropper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Dropper-prefix.pch"; sourceTree = "<group>"; };
+		5CBA4DFE58AAD12CD9E9C36FC490E3C5 /* Dropper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Dropper-Info.plist"; sourceTree = "<group>"; };
+		624B39DD25844BEB8C9611764A9F5167 /* Dropper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Dropper-umbrella.h"; sourceTree = "<group>"; };
+		6B90DF99DEE304D6A69C161AAEF227FA /* Dropper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Dropper.xcconfig; sourceTree = "<group>"; };
+		6F57FE5A94D37F217EEA12DA4A6C51E3 /* DropperDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropperDelegate.swift; path = Pod/Classes/DropperDelegate.swift; sourceTree = "<group>"; };
+		8AF4257D6837368A693BBEB962FA5849 /* Pods-YaTranslate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YaTranslate.debug.xcconfig"; sourceTree = "<group>"; };
+		936A910B0DB6D4E6B37FC43E3786FB99 /* Dropper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Dropper.framework; path = Dropper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		971D36024B1AC9CBF74A9CCF246CBC7D /* Dropper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dropper.swift; path = Pod/Classes/Dropper.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AABD6C95572AC30F3184D9CAA0EF9630 /* Pods-YaTranslate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YaTranslate.modulemap"; sourceTree = "<group>"; };
+		BB2E3A721E98FA9D0977141F2CB6A2FB /* Dropper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Dropper.modulemap; sourceTree = "<group>"; };
+		BC1B918944C4F50E08C3996276CB79D0 /* Pods-YaTranslate-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YaTranslate-frameworks.sh"; sourceTree = "<group>"; };
+		BED71D10E7CA8D2609E688849ABE4EDD /* Pods-YaTranslate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YaTranslate.release.xcconfig"; sourceTree = "<group>"; };
+		D6AE7F6195643AECD934D4B31FD62D0F /* Pods-YaTranslate-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YaTranslate-acknowledgements.plist"; sourceTree = "<group>"; };
+		E2ECF84490457C370CC9719EF486D5F1 /* Pods-YaTranslate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YaTranslate-umbrella.h"; sourceTree = "<group>"; };
+		E66421A1A9F5D34D30C91A93D3443495 /* Pods-YaTranslate-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YaTranslate-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E72C27BC87647DBFE838A02B9153DCBF /* Pods-YaTranslate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YaTranslate-dummy.m"; sourceTree = "<group>"; };
+		ED9771A7BA707AFF3BFFC799845A63AD /* Pods_YaTranslate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YaTranslate.framework; path = "Pods-YaTranslate.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1A1AC49A77498E28ADBB7879AEA228E /* Pods-YaTranslate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YaTranslate-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		665743C592032D76C4FE30099F7F50D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC27408CC7A646F96F20EAE65FA692F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		748EF9A1C904D34442D3D375B5C1F77F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90071DC1BFE85520889B72EC96B7CAAB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		193AC9D8684C36C593919DAA6EBA9EBE /* Dropper */ = {
+			isa = PBXGroup;
+			children = (
+				971D36024B1AC9CBF74A9CCF246CBC7D /* Dropper.swift */,
+				19E680E0F0A92FB7CC001EDE9647DE1D /* DropperCell.swift */,
+				6F57FE5A94D37F217EEA12DA4A6C51E3 /* DropperDelegate.swift */,
+				3D00DD7571EEC25A83B8AEC681CE6AB3 /* DropperExtensions.swift */,
+				98026A3A7EE7576E94D288DA88BC15E6 /* Support Files */,
+			);
+			name = Dropper;
+			path = Dropper;
+			sourceTree = "<group>";
+		};
+		2C7A641B5148E17CA99CD27AABF19FB1 /* Pods-YaTranslate */ = {
+			isa = PBXGroup;
+			children = (
+				AABD6C95572AC30F3184D9CAA0EF9630 /* Pods-YaTranslate.modulemap */,
+				E66421A1A9F5D34D30C91A93D3443495 /* Pods-YaTranslate-acknowledgements.markdown */,
+				D6AE7F6195643AECD934D4B31FD62D0F /* Pods-YaTranslate-acknowledgements.plist */,
+				E72C27BC87647DBFE838A02B9153DCBF /* Pods-YaTranslate-dummy.m */,
+				BC1B918944C4F50E08C3996276CB79D0 /* Pods-YaTranslate-frameworks.sh */,
+				F1A1AC49A77498E28ADBB7879AEA228E /* Pods-YaTranslate-Info.plist */,
+				E2ECF84490457C370CC9719EF486D5F1 /* Pods-YaTranslate-umbrella.h */,
+				8AF4257D6837368A693BBEB962FA5849 /* Pods-YaTranslate.debug.xcconfig */,
+				BED71D10E7CA8D2609E688849ABE4EDD /* Pods-YaTranslate.release.xcconfig */,
+			);
+			name = "Pods-YaTranslate";
+			path = "Target Support Files/Pods-YaTranslate";
+			sourceTree = "<group>";
+		};
+		41D25E76C47E5C36268DBCBEBA843CA3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				193AC9D8684C36C593919DAA6EBA9EBE /* Dropper */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C1C0560B4EBA53B986A5CDC6877F820 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				936A910B0DB6D4E6B37FC43E3786FB99 /* Dropper.framework */,
+				ED9771A7BA707AFF3BFFC799845A63AD /* Pods_YaTranslate.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98026A3A7EE7576E94D288DA88BC15E6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB2E3A721E98FA9D0977141F2CB6A2FB /* Dropper.modulemap */,
+				6B90DF99DEE304D6A69C161AAEF227FA /* Dropper.xcconfig */,
+				3A965F1F1CC12F1AD528277E192A34F6 /* Dropper-dummy.m */,
+				5CBA4DFE58AAD12CD9E9C36FC490E3C5 /* Dropper-Info.plist */,
+				43A9021732DF4E687F1BA797E0887D8F /* Dropper-prefix.pch */,
+				624B39DD25844BEB8C9611764A9F5167 /* Dropper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Dropper";
+			sourceTree = "<group>";
+		};
+		B6B275E3A743A77CB1FAD70CFD8C9AC1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C7A641B5148E17CA99CD27AABF19FB1 /* Pods-YaTranslate */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				41D25E76C47E5C36268DBCBEBA843CA3 /* Pods */,
+				7C1C0560B4EBA53B986A5CDC6877F820 /* Products */,
+				B6B275E3A743A77CB1FAD70CFD8C9AC1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7B4CED0626E09907B7FFC6D3B0915982 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F638261674C83DE7D842332BAC73C6C /* Dropper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3C18C13FC4EC75295F27A0682F0F724 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0E7645B0F2B1A70D56354E179BAB62 /* Pods-YaTranslate-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2A7DAEA37FD584EAF7C52678403AC06E /* Pods-YaTranslate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08538ECF48FBF6AA69BCC0716F80035E /* Build configuration list for PBXNativeTarget "Pods-YaTranslate" */;
+			buildPhases = (
+				C3C18C13FC4EC75295F27A0682F0F724 /* Headers */,
+				6538C4E4042804B8B188CD8E717EC5AC /* Sources */,
+				665743C592032D76C4FE30099F7F50D6 /* Frameworks */,
+				8841B73F00F30361F7E306BA1D56BAD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BB70C260E80350558C9E919A88F85CA /* PBXTargetDependency */,
+			);
+			name = "Pods-YaTranslate";
+			productName = "Pods-YaTranslate";
+			productReference = ED9771A7BA707AFF3BFFC799845A63AD /* Pods_YaTranslate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		369974F7679ED5F4856B88F12F76F820 /* Dropper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA1D916807CCEC848462A69657D4B3EA /* Build configuration list for PBXNativeTarget "Dropper" */;
+			buildPhases = (
+				7B4CED0626E09907B7FFC6D3B0915982 /* Headers */,
+				06BFEABE24C4432F933192543A71ACD3 /* Sources */,
+				748EF9A1C904D34442D3D375B5C1F77F /* Frameworks */,
+				BCCA5894E0DE1908DEDEEF7FE7B9D374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dropper;
+			productName = Dropper;
+			productReference = 936A910B0DB6D4E6B37FC43E3786FB99 /* Dropper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7C1C0560B4EBA53B986A5CDC6877F820 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				369974F7679ED5F4856B88F12F76F820 /* Dropper */,
+				2A7DAEA37FD584EAF7C52678403AC06E /* Pods-YaTranslate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8841B73F00F30361F7E306BA1D56BAD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCA5894E0DE1908DEDEEF7FE7B9D374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06BFEABE24C4432F933192543A71ACD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D16E18D971D4080DA65601A9A329F2 /* Dropper-dummy.m in Sources */,
+				00E8D066F0BFD8B1CE4749D4643FECA6 /* Dropper.swift in Sources */,
+				4DCBEEACB37AC7C5DA53541BD3F2D108 /* DropperCell.swift in Sources */,
+				2DE4879B6BE5EDCD4AA25A00781EA4DB /* DropperDelegate.swift in Sources */,
+				DD2663BD2B51FF0E006D2F5DCF18472C /* DropperExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6538C4E4042804B8B188CD8E717EC5AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF03CF5CFB6640F9124FC088C4CBFA7E /* Pods-YaTranslate-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BB70C260E80350558C9E919A88F85CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Dropper;
+			target = 369974F7679ED5F4856B88F12F76F820 /* Dropper */;
+			targetProxy = 46D3DEB0D540029E091F28E525A803AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		943CAF4989C76A4DA8A8CEB52AEA9CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BED71D10E7CA8D2609E688849ABE4EDD /* Pods-YaTranslate.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YaTranslate/Pods-YaTranslate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YaTranslate/Pods-YaTranslate.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8F1D6C7046B8F145EEA158B636DC8CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B90DF99DEE304D6A69C161AAEF227FA /* Dropper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Dropper/Dropper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Dropper/Dropper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Dropper/Dropper.modulemap";
+				PRODUCT_MODULE_NAME = Dropper;
+				PRODUCT_NAME = Dropper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F6821E2DAC55E48BCDBA1441B16BEEC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B90DF99DEE304D6A69C161AAEF227FA /* Dropper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Dropper/Dropper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Dropper/Dropper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Dropper/Dropper.modulemap";
+				PRODUCT_MODULE_NAME = Dropper;
+				PRODUCT_NAME = Dropper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F92F1507627C04CE99A6258CA722BE54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AF4257D6837368A693BBEB962FA5849 /* Pods-YaTranslate.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YaTranslate/Pods-YaTranslate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YaTranslate/Pods-YaTranslate.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08538ECF48FBF6AA69BCC0716F80035E /* Build configuration list for PBXNativeTarget "Pods-YaTranslate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92F1507627C04CE99A6258CA722BE54 /* Debug */,
+				943CAF4989C76A4DA8A8CEB52AEA9CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA1D916807CCEC848462A69657D4B3EA /* Build configuration list for PBXNativeTarget "Dropper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6821E2DAC55E48BCDBA1441B16BEEC3 /* Debug */,
+				B8F1D6C7046B8F145EEA158B636DC8CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - Dropper (2.7.6)
+
+DEPENDENCIES:
+  - Dropper
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Dropper
+
+SPEC CHECKSUMS:
+  Dropper: 52a020beb6fef2e4b1d55447f17099e5776954ef
+
+PODFILE CHECKSUM: 2b69eaa57a7a26f819a0229720003a0fdaa604f2
+
+COCOAPODS: 1.7.1
